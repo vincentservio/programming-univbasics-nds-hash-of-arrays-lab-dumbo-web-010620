@@ -6,7 +6,7 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HOA[:chipmunks] << "Dave" and BASE_HOA[:third_earthers]<< "Snarf"
+  BASE_HOA[:chipmunks] << "Dave" and BASE_HOA[:third_earthers].pop "Snarf"
 
   # Write your implementation here
   # Should return the array of the 'show' argument
